@@ -1,0 +1,20 @@
+#portfolio {
+  background-color: var(--light-sage);
+  border-top: 2px solid var(--gray);
+}
+
+.portfolio1 .card-image {
+  grid: 1 / 2;
+}
+
+.portfolio1 .card-description {
+  grid: 2 / 3;
+}
+
+.portfolio1 .card-image {
+  grid: 3 / 4;
+}
+
+.portfolio1 .card-description {
+  grid: 4 / 5;
+}

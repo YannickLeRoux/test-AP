@@ -1,0 +1,20 @@
+.banner {
+  display: grid;
+  grid-template-columns: 100wh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.banner-img {
+  grid-column: 1 / -1;
+  grid-row:  1 / -1;
+  width:100%;
+  z-index: -2;
+}
+
+.banner h1 {
+  display: inline;
+  grid-column: 1 / -1;
+  grid-row:  1 / -1;
+}

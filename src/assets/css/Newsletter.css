@@ -1,0 +1,28 @@
+.newsletter {
+  padding: 75px 50px;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+#newsletter-form {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.newsletter-input {
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--gray);
+}
+
+.newsletter-button {
+  background-color: var(--dark-slate-blue);
+  color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-weight: 700;
+  margin-left: -30px;
+  border: none;
+}

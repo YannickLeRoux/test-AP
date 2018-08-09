@@ -1,0 +1,13 @@
+#services {
+}
+
+.services-heading {
+  justify-self: start;
+  align-self: center;
+  grid-column: 2 / 3;
+}
+
+.services-description {
+  justify-self: start;
+  grid-column: 3 / 5;
+}

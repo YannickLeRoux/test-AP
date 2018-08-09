@@ -1,0 +1,21 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 0.4px;
+}
+
+.navbar-brand {
+  font-size: 18px;
+
+}
+
+.navbar-item {
+   margin-right: 40px;
+   font-size: 14px;
+
+}
