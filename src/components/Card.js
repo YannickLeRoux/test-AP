@@ -7,7 +7,7 @@ const Card = ({ image, title, description }) => {
   return (
     <React.Fragment>
       <div className="card-image">
-        <img src={image} />
+        <img src={image} alt="" />
       </div>
       <div className="card-description">
         <h4 className="card-description-heading">{title}</h4>
@@ -23,6 +23,6 @@ Card.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-}
+};
 
 export default Card;

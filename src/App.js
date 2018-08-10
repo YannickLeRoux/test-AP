@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import LandingPage from './routes/LandingPage';
+import { BrowserRouter } from 'react-router-dom';
+
+import Router from './routes/Router';
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <LandingPage />
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Router />
+        </div>
+      </ BrowserRouter>
     );
   }
 }

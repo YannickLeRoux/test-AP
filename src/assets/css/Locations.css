@@ -1,0 +1,26 @@
+#locations {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+  grid-gap: 40px;
+  justify-content: space-between;
+  padding: 50px 50px !important;
+}
+
+.locations-heading {
+  justify-self: center;
+  grid-column: 1 / -1;
+}
+
+#locations > * {
+  padding: 0;
+}
+
+#locations figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caption {
+  width: 100%;
+  margin-top: -15%;
+}

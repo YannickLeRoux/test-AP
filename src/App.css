@@ -22,6 +22,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.4px;
   text-transform: uppercase;
+  line-height: 38px;
 
 }
 
@@ -55,7 +56,7 @@ p {
   letter-spacing: 0.2px;
 }
 
-caption {
+.caption {
   font-size: 14px;
   color: #7c7c7c;
   font-weight: 500;

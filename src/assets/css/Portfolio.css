@@ -1,6 +1,6 @@
 #portfolio {
   background-color: var(--light-sage);
-  border-top: 2px solid var(--gray);
+  border-top: 1px solid var(--gray);
 }
 
 .portfolio1 .card-image {

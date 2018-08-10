@@ -6,15 +6,21 @@ import Services from '../components/Services';
 import Portfolio from '../components/Porfolio';
 import Footer from '../components/Footer';
 import Newsletter from '../components/Newsletter';
+import Locations from '../components/Locations';
 
 const LandingPage = () => {
   return (
     <React.Fragment>
-      <NavBar />
-      <Header />
-      <Services />
-      <Portfolio />
-      <Newsletter />
+      <header>
+        <NavBar />
+        <Header />
+      </header>
+      <main>
+        <Services />
+        <Portfolio />
+        <Locations />
+        <Newsletter />
+      </main>
       <Footer />
 
     </React.Fragment>
