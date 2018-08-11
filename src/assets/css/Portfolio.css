@@ -18,3 +18,11 @@
 .portfolio1 .card-description {
   grid: 4 / 5;
 }
+
+.card-image {
+  max-width: 200px;
+}
+
+.card-description {
+  max-width: 500px;;
+}

@@ -1,12 +1,13 @@
 #locations {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 40px;
   justify-content: space-between;
-  padding: 50px 50px !important;
+  padding: 50px 50px;
 }
 
 .locations-heading {
   justify-self: center;
+  align-self: center;
   grid-column: 1 / -1;
 }
 
