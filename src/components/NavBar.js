@@ -20,7 +20,7 @@ const NavBar = () => {
           <NavLink
             style={{ marginRight:40 }}
             className="navbar-link"
-            to="/login" >
+            to="/getonboard" >
            Log In
           </NavLink>
         </li>

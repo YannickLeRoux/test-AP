@@ -1,6 +1,6 @@
 .newsletter {
   padding: 75px 50px;
-  width: 100%;
+  width: 100vw;
   display: block;
   text-align: center;
   border-top: 1px solid var(--gray);
@@ -9,10 +9,11 @@
 #newsletter-form {
   display: inline-block;
   margin: 20px auto;
+  width: 100vw;
 }
 
 .newsletter-input {
-  width: 400px;
+  width: 350px;
   padding: 20px;
   border-radius: 5px;
   border: 1px solid var(--gray);

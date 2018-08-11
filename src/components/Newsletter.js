@@ -7,6 +7,7 @@ import '../assets/css/Newsletter.css';
 
 class Newsletter extends Component {
 
+
   setFormApi(formApi) {
     this.formApi = formApi;
   }
@@ -24,7 +25,9 @@ class Newsletter extends Component {
     };
 
     axios(options)
-      .then(response => console.log(response));
+      .then(response => console.log(response.data))
+      .then(alert('Thank You For Subscribing To Our Newsletter!'))
+      .catch(error => alert(error.response.data.message))
   }
 
 
@@ -38,10 +41,11 @@ class Newsletter extends Component {
           onSubmit={this.newsletterSubscribe.bind(this)}
           id="newsletter-form">
           <Text
-          className="newsletter-input"
-          field="email"
-          id="newsletter-email"
-          placeholder="Your Email"
+            className="newsletter-input"
+            field="email"
+            type="email"
+            id="newsletter-email"
+            placeholder="Your Email"
         />
           <button
           className="newsletter-button"

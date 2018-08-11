@@ -7,7 +7,7 @@ import LoginPage from './LoginPage';
 const Router = () => {
   return (
     <Switch>
-      <Route activeClassName="active" path="/login" component={LoginPage} />
+      <Route activeClassName="active" path="/getonboard" component={LoginPage} />
       <Route activeClassName="active-brand" path="/" component={LandingPage} />
     </Switch>
   );

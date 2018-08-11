@@ -25,10 +25,6 @@
   color: #ffffff;
 }
 
-.navbar-link:hover {
-  color: var(--faded-red);
-}
-
 .active {
   display: none;
 }
