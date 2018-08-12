@@ -2,6 +2,12 @@
 
 ### Sent Sunday August 12th 2018
 
+`git clone`
+then
+`npm install`
+then
+`npm start`
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
