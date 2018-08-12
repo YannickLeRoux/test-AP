@@ -3,9 +3,9 @@
 ### Sent Sunday August 12th 2018
 
 `git clone`
-then
+&rarr;
 `npm install`
-then
+&rarr;
 `npm start`
 
 
