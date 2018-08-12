@@ -6,7 +6,7 @@ import qs from 'qs';
 
 
 class OnBoardForm extends Component {
-  state = {
+  state={
     isSignUp: true,
     buttonText: "Sign Up",
     error: ''

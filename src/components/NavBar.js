@@ -12,15 +12,17 @@ const NavBar = () => {
         <li className="navbar-brand">
           <Link
             className="navbar-link"
-            to="/" >
+            to="/"
+          >
             Reactor
           </Link>
         </li>
         <li className="navbar-item login">
           <NavLink
-            style={{ marginRight:40 }}
+            style={{ marginRight: 40 }}
             className="navbar-link"
-            to="/getonboard" >
+            to="/getonboard"
+          >
            Log In
           </NavLink>
         </li>

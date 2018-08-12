@@ -18,7 +18,7 @@ const Portfolio = () => {
         DJs flock by when MTV ax quiz prog.
         Junk MTV quiz graced by fox whelps.
         Bawds jog, flick quartz, vex nymphs."
-        />
+      />
       <Card
         className="portfolio2"
         image={image2}
@@ -27,7 +27,7 @@ const Portfolio = () => {
         DJs flock by when MTV ax quiz prog.
         Junk MTV quiz graced by fox whelps.
         Bawds jog, flick quartz, vex nymphs."
-        />
+      />
     </section>
   );
 };

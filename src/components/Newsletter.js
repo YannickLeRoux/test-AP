@@ -14,7 +14,7 @@ class Newsletter extends Component {
 
   newsletterSubscribe() {
     const formState = this.formApi.getState();
-    const data = { email : formState.values.email };
+    const data = { email: formState.values.email };
     const url = 'http://dev3.apppartner.com/Reactors/scripts/add-email.php';
 
     const options = {
@@ -27,7 +27,7 @@ class Newsletter extends Component {
     axios(options)
       .then(response => console.log(response.data))
       .then(alert('Thank You For Subscribing To Our Newsletter!'))
-      .catch(error => alert(error.response.data.message))
+      .catch(error => alert(error.response.data.message));
   }
 
 
@@ -39,26 +39,26 @@ class Newsletter extends Component {
         <Form
           getApi={this.setFormApi.bind(this)}
           onSubmit={this.newsletterSubscribe.bind(this)}
-          id="newsletter-form">
+          id="newsletter-form"
+        >
           <Text
             className="newsletter-input"
             field="email"
             type="email"
             id="newsletter-email"
             placeholder="Your Email"
-        />
+          />
           <button
-          className="newsletter-button"
-          type="submit">
+            className="newsletter-button"
+            type="submit"
+          >
             Subscribe
-        </button>
+          </button>
         </Form>
       </div>
 
     );
-
   }
-
-};
+}
 
 export default Newsletter;

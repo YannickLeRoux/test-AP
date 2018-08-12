@@ -1,7 +1,10 @@
 .newsletter {
-  padding: 75px 50px;
+  padding: 75px 0;
   width: 100vw;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   border-top: 1px solid var(--gray);
 }

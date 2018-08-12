@@ -11,10 +11,14 @@ const Services = () => {
       <div className="services-description">
         <h4 className="card-description-heading">We do</h4>
         <div className="card-description-content">
-        The quick, brown fox jumps over a lazy dog.<br/>
-        DJs flock by when MTV ax quiz prog.<br/>
-        Junk MTV quiz graced by fox whelps.<br/>
-        Bawds jog, flick quartz, vex nymphs.<br/>
+          The quick, brown fox jumps over a lazy dog.
+          <br />
+          DJs flock by when MTV ax quiz prog.
+          <br />
+          Junk MTV quiz graced by fox whelps.
+          <br />
+          Bawds jog, flick quartz, vex nymphs.
+          <br />
         </div>
       </div>
 
